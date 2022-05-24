@@ -55,6 +55,8 @@ The current API is versioned at 1.0 via URL segments.  This is important to reme
 
 ## TODO
 * Unit Tests - these are a must, but time constraints eliminated them from happening immediately.  React.Poker.ApplicationCore and the front-end are the primary nees here.
+* Upgrade to use TypeScript
+* Implement React-Redux, immutable store
 * Swashbuckle Schema issues with custom Enum needs. Some more time needs to be spent on the JSON and Type Converters that aren't working as planned yet.
 
 ## License
