@@ -1,0 +1,42 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.players-flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+.winning-player {
+    border: 5px solid green;    
+}
+
+.select-margin {
+    margin-left: 10px;
+}
+
+td .card {
+    display:inline
+}
