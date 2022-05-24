@@ -65,7 +65,7 @@ namespace React.Poker.API.Controllers
                     _logger.LogWarning($"Could not Determine Winner from hands provided.");
                     return NoContent();
                 }
-                return Ok();
+                return Ok(result);
             }
             catch (Exception ex)
             {
